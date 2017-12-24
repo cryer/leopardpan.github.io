@@ -8,12 +8,11 @@ description:网上关于ss的安装教程很多，大部分都很繁琐，这里
 		wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 
 		chmod +x shadowsocks.sh
-
 		./shadowsocks.sh 2>&1 | tee shadowsocks.log
 
 
 
-## 另外给出我ubuntu Anaconda安装opencv的命令，也只有一行
+另外给出我ubuntu Anaconda安装opencv的命令，也只有一行
 
 
 		conda install --channel https://conda.anaconda.org/menpo opencv3
