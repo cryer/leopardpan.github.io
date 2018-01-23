@@ -128,7 +128,9 @@ p是原始图片，x是白噪声图片，P和X未对应的激活图。
 
 其中的alpha和beta就是前面说的权重，一般取alpha/beta 为10-3左右。
 
-# 代码效果
+# 效果展示
+
+具体代码参考我的[github](https://github.com/cryer/Style_Transfer)
 
 下面给出代码运行的效果，推荐使用GPU加速，本人首先在没有GPU的Ubuntu上跑此代码大约4-5个小时，后来用了GPU只需要2分钟不到。
 初始的内容图片为：
