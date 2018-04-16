@@ -55,7 +55,9 @@ Tensorflow 目标检测API其实是官方提供的一组样例，里面不仅包
 这种类似的软件进行标注，标注完每个图片对应一个xml文件，里面记录了类别，坐标等信息。
 
 * 下一步就是讲xml转化成tensorflow固有的格式TFRcord，可以用你喜欢的方式进行，这里是先将xml转成csv，再转成record。
+
 转成csv：
+
 ```
 import os
 import glob
@@ -95,7 +97,9 @@ def main():
 
 main()
 ```
+
 转成record：
+
 ```
 import os
 import io
@@ -114,7 +118,6 @@ flags.DEFINE_string('output_path', '', 'Path to output TFRecord')
 FLAGS = flags.FLAGS
 
 
-# TO-DO replace this with label map
 def class_text_to_int(row_label):
     if row_label == 'card':
         return 1
@@ -186,6 +189,7 @@ def main(_):
 if __name__ == '__main__':
     tf.app.run()
 ```
+
 细节不多说的，有问题可以直接留言，仔细看代码，将对应的地址部分好好修改。
 
 ## 数据存放
