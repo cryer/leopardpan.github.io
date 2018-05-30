@@ -9,9 +9,7 @@ title: 关于我
 <p>
 了解一些 前端,后端 知识,JS,jQuery，php之类，了解 Python，C/C++，lua,R，arduino等等。<br>
 
-<p>
-曾获得2006年美国时代周刊风云人物<br>
-2008年感动中国组委会特别大奖
+
 
 <p>
 qq：935211204<br>
