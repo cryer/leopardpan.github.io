@@ -60,7 +60,7 @@ nav:
     - {title: 所有文章, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于我, description: about, url: '/about'}
-    - {title: 导师博客, description: teacher, url: 'https://xuepro.xcguan.net/'}
+    - {title: 导师博客, description: teacher, url: 'http://xuepro.xcguan.net/'}
 
 
 # Pagination
